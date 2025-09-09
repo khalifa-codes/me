@@ -1,0 +1,87 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": { "title": "Certifications" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {"bg": "#326CE5", "fill": "#EEE"},
+                    "date": {"year": 2023, "month": 11},
+                    "link": {"href": "https://www.w3schools.com/html/default.asp", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{The Html & Css}}",
+                            "text": "Certiication in html5 and css3 with frameworks"
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-ethernet",
+                    "faIconColors": {"bg": "#FFD700", "fill": "#111"},
+                    "date": {"year": 2025, "month": 5},
+                    "link": {"href": "https://www.netacad.com/courses/networking-essentials", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Networking}} Essentials",
+                            "text": "Cisco Certified Networking Certificate"
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEE"},
+                    "date": {"year": 2024, "month": 8},
+                    "link": {"href": "https://www.python.org/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Python}}",
+                            "text": "Certified Python Engineer"
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-cuttlefish",
+                    "faIconColors": {"bg": "#47A248", "fill": "#EEE"},
+                    "date": {"year": 2023, "month": 12},
+                    "link": {"href": "https://isocpp.org/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{C++}} ",
+                            "text": "C++ Certified Developer"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

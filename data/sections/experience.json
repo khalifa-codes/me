@@ -1,0 +1,12 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "No Work {{Experience}} Yet"
+            }
+        }
+    }
+}

@@ -1,0 +1,179 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-desktop",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "02",
+                            "text": "Desktop App Created"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-star",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "5+",
+                            "text": "Webs Automated"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-globe",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "10",
+                            "text": "WebApplication Projects Completed"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "10",
+                            "text": "Scrapping Completed"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "4",
+                            "text": "Half Graduated"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Quick {{Facts}}" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2024, "month": 12},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Got Expertise in {{Networking}}",
+                            "province": "KPK",
+                            "country": "Pakistan",
+                            "institution": "City University Science and Information Technology",
+                            "text": "Gained hands-on experience in computer networking, including configuring networks, troubleshooting connectivity issues, and implementing secure communication protocols."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {"year": 2025, "month": 9},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Currently Working on {{Desktop Application}}",
+                            "province": "KPK",
+                            "country": "Pakistan",
+                            "institution": "",
+                            "text": "Developing a personal To-Do List desktop application to organize tasks efficiently, practice programming concepts, and enhance productivity through a user-friendly interface."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {"year": 2025, "month": 1},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Front-End}} Completed",
+                            "province": "KPK",
+                            "country": "Pakistan",
+                            "institution": "",
+                            "text": "Completed Front-End development training, building responsive and interactive web interfaces with a focus on user-friendly design and modern best practices.",
+                            "list": []
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "date": {"year": 2024, "month": 8},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Got Certification in {{Python}}",
+                            "province": "KPK",
+                            "country": "Pakistan",
+                            "institution": "",
+                            "text": "Earned a Python certification demonstrating strong programming skills, built projects to apply concepts practically, and enhanced problem-solving and coding abilities."
+                        }
+                    }
+                }
+                
+            ]
+        }
+    ]
+}

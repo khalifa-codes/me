@@ -1,0 +1,233 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Hamza Ali}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Software Engineer",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "fa-solid fa-gears"
+                },
+                {
+                    "id": 2,
+                    "label": "hamzaxali70@gmail.com",
+                    "link": {"href": "hamzaxali70@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@khalifa-codes",
+                    "link": {"href": "https://github.com/khalifa-codes", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": "#5591bd"},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I am a Full Stack Developer with expertise in Python and C++. On the backend, I work with Flask, Django, and FastAPI for building REST APIs, while on the frontend I use HTML, CSS, JavaScript, and React. I also have hands-on experience with databases such as SQLite3 and MySQL, enabling me to deliver complete end-to-end solutions.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs.</p><p>I look forward to collaborating <b>{{with you!}}</b>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {"title": "Client {{testimonials}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Anita Bath",
+                    "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-female-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "CEO at [[SalesForce]]",
+                            "text": "Working with Mark was a truly [[transformative experience]]. His outstanding programming skills and collaborative spirit not only elevated the quality of our project but also brought a renewed sense of motivation and purpose to us."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Lou Natic",
+                    "link": {"href": "https://github.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Lead Developer at [[GitHub]]",
+                            "text": "Having Mark on our team was an invaluable asset. His [[deep programming insights and mentorship]] not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "label": "Paige Turner",
+                    "link": {"href": "", "tooltipString": ""},
+                    "img": "images/pictures/testimonial-person-female-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Managing Director at [[Dingga]]",
+                            "text": "Collaborating with Mark was a true [[game changer]] for our entire development process. His [[deep technical expertise]], creative problem-solving, and proactive mindset were absolutely invaluable."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "label": "Chris P. Bacon",
+                    "link": {"href": "https://dribbble.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Creative Director at [[Dribbble]]",
+                            "text": "Mark Choi's [[attention to detail]] and his [[innovative thinking]] brought a fresh perspective to our whole design process! Simply amazing!"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Gaming}}",
+                            "text": "Passionate about gaming as a way to explore creativity, strategy, and continuous learning."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-plane",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Travelling}}",
+                            "text": "Passionate about traveling and exploring new places, always seeking fresh experiences and perspectives."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Tech }} Enthusiast",
+                            "text": "Enthusiastic about technology, with a focus on exploring innovative solutions and keeping pace with emerging trends."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-music",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Music}} Enthusiast ",
+                            "text": "Enjoy exploring diverse music genres and finding inspiration through sound."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-shield-halved",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Ethical}} Hacking",
+                            "text": "Keen interest in ethical hacking and cybersecurity, with a focus on understanding vulnerabilities and improving digital safety."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-camera-retro",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Photo {{Editing}}",
+                            "text": "Enhancing photos through creative editing techniques."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

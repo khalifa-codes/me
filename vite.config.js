@@ -2,8 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
+// Use '/' for custom domain, '/me/' for GitHub Pages subdirectory
 export default defineConfig({
-    base: '/me/',
+    base: process.env.VITE_BASE_PATH || '/me/',
     plugins: [react()],
     build: {
         rollupOptions: {
